@@ -1,7 +1,7 @@
 # ECG Signal Processing using MATLAB
 
 This project demonstrates the complete workflow of **ECG (Electrocardiogram) signal processing**, from raw data filtering to R-peak detection and heart rate analysis.  
-It also includes an interactive **Graphical User Interface (GUI)** built using MATLAB App Designer.
+It also includes an interactive **Graphical User Interface (GUI)**.
 
 ---
 
@@ -12,20 +12,6 @@ It also includes an interactive **Graphical User Interface (GUI)** built using M
 - Visual plots of raw vs filtered signals  
 - Heart rate classification (Normal, Bradycardia, Tachycardia)
 
----
-
-## Project Structure
-
-```
-ECG_Project/
-│
-├── ECG_Signal_Processing.m # Main processing pipeline
-├── ECG_Powerline_Interference.m # Filter for 50/60 Hz noise
-├── ECG_RPeak_Detection.m # R-peak detection logic
-├── ECG_App.mlapp # GUI created in MATLAB App Designer
-├── sample_ecg.mat # Sample ECG data (optional)
-└── README.md
-```
 ---
 
 ## How it Works

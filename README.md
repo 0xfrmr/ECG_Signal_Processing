@@ -49,6 +49,10 @@ ECG_Project/
    ```matlab
    ECG_App
    ```
+![Normal rate](docs/1.png)
+![abnormal rate](docs/2.png)
+
+
 
 ## 🚀 Future Improvements
 

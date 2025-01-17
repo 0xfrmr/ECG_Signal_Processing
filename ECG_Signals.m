@@ -1,5 +1,5 @@
 function varargout = ECG_Signals(mode, ecg, fs, r_locs_in)
-% Small utility: detect R peaks and P-Q-R-S-T if requested.
+% detect R peaks and P-Q-R-S-T if requested
 switch lower(mode)
     case 'detectr'
         sig = ecg(:);

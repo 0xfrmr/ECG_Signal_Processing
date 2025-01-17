@@ -1,5 +1,5 @@
 function ecg_filt = ECG_Powerline_Interference(ecg, fs, bpCut, notchFreq)
-% Bandpass (Butterworth) + custom IIR notch (no Signal Processing Toolbox required)
+% Bandpass (Butterworth) + custom IIR notch 
 
 ecg = double(ecg(:)) - mean(ecg);
 

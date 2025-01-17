@@ -1,14 +1,4 @@
 function ECG_App
-% ECG_App - simple ECG analysis GUI
-% Run by typing: ECG_App
-%
-% Features:
-% - Load ECG (.mat or .csv)
-% - Preprocess (bandpass + notch)
-% - Detect R peaks
-% - Compute HR & HRV (SDNN, RMSSD)
-% - Simple HR classification (Brady/Normal/Tachy)
-% - Export results to CSV
 
 % State variables (shared with callbacks)
 ecg = [];
@@ -59,8 +49,6 @@ ax3 = uiaxes(fig,'Position',[310 20 770 130]); title(ax3,'RR Intervals & HRV'); 
 
 % Help text
 uilabel(panel,'Text','Notes: load .mat/.csv or use synthetic if empty.','Position',[20 230 240 30],'WordWrap','on');
-
-% Run: nothing to do by default
 
 %% Callback: Load ECG
     function onLoad(~,~)

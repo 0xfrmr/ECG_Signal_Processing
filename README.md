@@ -60,6 +60,4 @@ ECG_Project/
 
 - Automatic anomaly detection using machine learning
 
-- Multi-lead ECG visualization
-
 - Export to CSV/PDF reports

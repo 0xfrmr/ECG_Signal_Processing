@@ -42,7 +42,7 @@ ECG_Project/
 
 ---
 
-## ▶️ Usage
+## Usage
 1. Open MATLAB or MATLAB Online  
 2. Set the current folder to `ECG_Project`  
 3. Run:
@@ -54,7 +54,7 @@ ECG_Project/
 
 
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - Integration with real ECG acquisition devices
 
